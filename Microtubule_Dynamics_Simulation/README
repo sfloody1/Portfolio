@@ -1,1 +1,55 @@
+# Microtubule Dynamics Simulation
 
+This project models microtubule assembly as a stochastic lattice-based growth process to explore how GTP/GDP state, neighbor interactions, and hydrolysis influence protofilament dynamics.
+
+## Overview
+
+Microtubules are dynamic cytoskeletal polymers that undergo growth and shrinkage through the addition and removal of tubulin subunits. In this simulation, each lattice site represents a tubulin subunit, and the model tracks:
+
+- GTP-bound subunits vs. GDP-bound subunits
+- Attachment and detachment events
+- Hydrolysis of GTP to GDP
+- Neighbor-dependent stabilization effects
+- Protofilament length over time
+
+The model uses a Gillespie-style stochastic framework to represent the probabilistic nature of microtubule assembly and disassembly.
+
+## Skills Used
+
+- Python programming for simulation logic and numerical modeling
+- Stochastic simulation and Gillespie algorithm implementation
+- Biophysical modeling of polymer assembly dynamics
+- Lattice-based computational modeling
+- Data analysis and time-series tracking of growth trajectories
+- Scientific visualization with Matplotlib
+- Biological interpretation of nucleotide-dependent microtubule behavior
+
+## Model Structure
+
+The notebook implements a simplified 2D lattice model where:
+
+- New tubulin dimers attach at open sites
+- Detachment rates depend on the number of lateral neighbors
+- GTP-bound subunits are more stable than GDP-bound subunits
+- Hydrolysis transitions GTP to GDP, weakening the lattice
+- Tagged GTP states represent a transitional, less stable configuration near GDP-rich regions
+
+This captures a core idea from microtubule biophysics: local interactions and nucleotide state strongly control whether a filament grows, pauses, or collapses.
+
+## Big Takeaways
+
+- Growth is not deterministic; it emerges from competing stochastic attachment and detachment events.
+- Neighboring interactions make the lattice more stable, so subunits with more lateral contacts are less likely to detach.
+- Hydrolysis creates a structural transition from a growing, GTP-rich state to a more labile GDP-rich state.
+- The model illustrates how dynamic instability can arise from the interplay between polymerization kinetics and nucleotide-driven weakening.
+- Even a simplified computational model can reproduce the qualitative behavior of microtubule assembly: growth is favored when GTP caps persist, while destabilization occurs as GDP-rich regions accumulate.
+- This project highlights how a relatively small set of biochemical rules can generate rich, biologically meaningful dynamics.
+
+## Files
+
+- `Microtubule_Assembly.ipynb` — main stochastic simulation and plotting notebook
+- `Microtubule_Assembly_Stochastic_Model.pdf` — written summary of the model and approach
+
+## Interpretation
+
+This simulation is a useful conceptual bridge between molecular biophysics and computational modeling: it shows how microscopic rules of subunit binding, hydrolysis, and neighbor coordination can generate the macroscopic behavior of microtubule growth and instability.
