@@ -1,31 +1,30 @@
 # T1R Binding Mechanism
 
-This project examines how sweet and umami ligands interact with the T1R taste receptor system through computational binding analysis and mechanistic interpretation. Rather than focusing on software development alone, the work follows a research-driven workflow: analyzing concentration-response data, fitting receptor-ligand models, and comparing how different compounds alter apparent binding behavior and signaling response.
+This project investigates the binding behavior of sweet and umami ligands in the T1R receptor system using computational analysis of concentration-response data. The work emphasizes receptor-ligand interaction modeling, parameter estimation, and interpretation of how ligand identity and concentration shape apparent binding and signaling behavior.
 
 ## Objective
 
-To evaluate how ligand concentration and chemical identity influence T1R binding dynamics, estimate apparent affinity and maximal response parameters, and interpret the mechanistic implications for sweet and umami receptor activation.
+To characterize how different ligands affect T1R-related binding dynamics, estimate apparent affinity and maximal response parameters, and interpret the mechanistic consequences for sweet and umami receptor activation.
 
 ## Skills Demonstrated
 
-- Python programming and scientific computing
-- Nonlinear regression and model fitting
-- Receptor-ligand binding analysis
-- Biophysical interpretation of dose-response data
-- Statistical analysis of experimental measurements
-- Scientific visualization with Matplotlib
-- Data-driven interpretation of sensory receptor mechanisms
-- Research synthesis and report preparation
+- Biophysical modeling of receptor-ligand interactions
+- Nonlinear regression and parameter estimation
+- Statistical analysis of dose-response data
+- Interpretation of binding and saturation behavior
+- Scientific data visualization
+- Computational analysis of sensory receptor mechanisms
+- Research synthesis and mechanistic interpretation
 
 ## Workflow
 
-1. Assemble ligand concentration and response datasets for T1R-related binding experiments
-2. Fit binding curves to estimate apparent affinity and saturation parameters
-3. Compare control and modulated conditions, including effects of IMP and related compounds
-4. Evaluate differences in receptor response across sweeteners and sugars
-5. Plot concentration-response relationships over biologically relevant ranges
-6. Interpret how ligand structure and concentration shape binding behavior
-7. Summarize the findings in a notebook-based research report
+1. Compile concentration-response datasets for T1R-related ligand conditions
+2. Fit binding curves to estimate apparent affinity and maximal response parameters
+3. Compare control and modulated conditions, including IMP-dependent effects
+4. Evaluate differences in binding behavior across ligands and concentrations
+5. Visualize dose-response relationships over biologically relevant ranges
+6. Interpret how ligand structure and concentration influence receptor engagement
+7. Summarize the findings in a research-style notebook analysis
 
 ## Tools Used
 
@@ -35,16 +34,16 @@ To evaluate how ligand concentration and chemical identity influence T1R binding
 - SciPy
 - Matplotlib
 - Jupyter Notebook
-- Receptor-ligand modeling and curve fitting
+- Receptor-ligand binding analysis
 
 ## Outputs
 
-- Estimated binding parameters such as Kd and Bmax for different ligand conditions
-- Comparison of receptor response across control, IMP, and alternative ligand conditions
+- Estimated binding parameters, including Kd and Bmax, for different ligand conditions
+- Comparative analysis of receptor response across control and modulated datasets
 - Visualizations of binding and dose-response relationships
-- Research summary contextualizing the T1R mechanism in terms of sweet/umami signaling
+- Mechanistic interpretation of T1R signaling behavior in relation to sweet and umami ligands
 
 ## Repository Files
 
-- `project.ipynb` – primary analysis notebook containing the binding fits, plots, and data interpretation
-- `T1R_proteins.pdf` – supporting research material and protein/receptor context for the T1R binding study
+- `project.ipynb` – primary notebook containing the binding analysis, regression fits, and model interpretation
+- `T1R_proteins.pdf` – supporting reference material describing T1R receptor context and related protein structure
