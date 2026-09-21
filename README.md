@@ -19,7 +19,7 @@ The work in this portfolio reflects a consistent interest in translating messy r
 
 Focus: Variant analysis in BRCA1 using public sequencing data
 
-This project examines BRCA1 variant patterns across public SRA datasets and emphasizes heterozygous variant discovery, summarization, and interpretation. The workflow includes data acquisition, alignment, variant calling, and filtering using command-line bioinformatics tools.
+This project examines BRCA1 variant patterns across public genomic datasets and emphasizes heterozygous variant discovery, summarization, and interpretation. The workflow includes data acquisition, alignment, variant calling, and filtering using command-line bioinformatics tools.
 
 Key skills demonstrated:
 
