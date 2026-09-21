@@ -1,6 +1,6 @@
 # BRCA1 Analysis
 
-This project analyzes BRCA1 variant patterns across populations using raw sequencing data from public SRA datasets.
+This project analyzes BRCA1 variant patterns across populations using raw sequencing data from public genomic datasets.
 
 ## Objective
 To detect heterozygous variants in BRCA1 and summarize variant counts across samples and regions.
@@ -17,7 +17,7 @@ To detect heterozygous variants in BRCA1 and summarize variant counts across sam
 - Genomic variant interpretation
 
 ## Workflow
-1. Download FASTQ files from SRA using wget
+1. Download FASTQ files from public genome databases using wget
 2. Decompress and organize files by region/country
 3. Build Bowtie2 index for BRCA1 reference
 4. Align reads to BRCA1 reference
